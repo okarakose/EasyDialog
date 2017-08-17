@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.okarakose'
 
 android {
     compileSdkVersion 21
